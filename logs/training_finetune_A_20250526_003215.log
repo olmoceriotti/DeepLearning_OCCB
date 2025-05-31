@@ -1,0 +1,50 @@
+2025-05-26 00:32:15 [INFO] Logging initialized for trainer of 'finetune_A'. Log file: /output/logs/training_finetune_A_20250526_003215.log
+2025-05-26 00:32:15 [INFO] Loaded 3 pretrained model paths from /pretrain/model_paths_pretrain_phase_1.txt
+2025-05-26 00:32:15 [INFO] Preparing data split for fine-tuning 'finetune_A' (dataset char 'A') using seed: 1001
+2025-05-26 00:32:16 [INFO] Data split with seed 1001: Train size: 1247, Validation size: 312
+
+2025-05-26 00:32:16 [INFO] 
+Starting fine-tuning cycle 1 for finetune_A
+2025-05-26 00:32:16 [INFO] Attempting to load pretrained model: /pretrain/model_A_cycle_1_epoch_1_loss_1.114_f1_0.746.pth for cycle 1
+2025-05-26 00:32:17 [INFO] Successfully loaded pretrained model: /pretrain/model_A_cycle_1_epoch_1_loss_1.114_f1_0.746.pth
+2025-05-26 00:32:17 [INFO] Using CrossEntropyLoss with label smoothing: 0.1
+
+2025-05-26 00:32:45 [INFO] Cyc 1, Ep 1, LR 1.00e-04, TrLoss: 1.2145, ValLoss: 1.1567, ValF1: 0.6892
+2025-05-26 00:32:45 [INFO] New best model saved: model_A_cycle_1_epoch_1_loss_1.157_f1_0.689.pth (F1: 0.6892, Loss: 1.1567)
+2025-05-26 00:33:12 [INFO] Cyc 1, Ep 2, LR 2.00e-04, TrLoss: 1.0834, ValLoss: 1.0245, ValF1: 0.7124
+2025-05-26 00:33:12 [INFO] New best model saved: model_A_cycle_1_epoch_2_loss_1.025_f1_0.712.pth (F1: 0.7124, Loss: 1.0245)
+2025-05-26 00:33:39 [INFO] Cyc 1, Ep 3, LR 3.00e-04, TrLoss: 0.9876, ValLoss: 0.9834, ValF1: 0.7298
+2025-05-26 00:33:39 [INFO] New best model saved: model_A_cycle_1_epoch_3_loss_0.983_f1_0.730.pth (F1: 0.7298, Loss: 0.9834)
+2025-05-26 00:34:06 [INFO] Cyc 1, Ep 4, LR 4.00e-04, TrLoss: 0.9234, ValLoss: 0.9456, ValF1: 0.7421
+2025-05-26 00:34:06 [INFO] New best model saved: model_A_cycle_1_epoch_4_loss_0.946_f1_0.742.pth (F1: 0.7421, Loss: 0.9456)
+2025-05-26 00:34:33 [INFO] Cyc 1, Ep 5, LR 5.00e-04, TrLoss: 0.8967, ValLoss: 0.9123, ValF1: 0.7534
+2025-05-26 00:34:33 [INFO] New best model saved: model_A_cycle_1_epoch_5_loss_0.912_f1_0.753.pth (F1: 0.7534, Loss: 0.9123)
+2025-05-26 00:35:00 [INFO] Cyc 1, Ep 6, LR 5.00e-04, TrLoss: 0.8745, ValLoss: 0.8987, ValF1: 0.7589
+2025-05-26 00:35:00 [INFO] New best model saved: model_A_cycle_1_epoch_6_loss_0.899_f1_0.759.pth (F1: 0.7589, Loss: 0.8987)
+2025-05-26 00:35:27 [INFO] Cyc 1, Ep 7, LR 5.00e-04, TrLoss: 0.8521, ValLoss: 0.8934, ValF1: 0.7624
+2025-05-26 00:35:27 [INFO] New best model saved: model_A_cycle_1_epoch_7_loss_0.893_f1_0.762.pth (F1: 0.7624, Loss: 0.8934)
+2025-05-26 00:35:54 [INFO] Cyc 1, Ep 8, LR 5.00e-04, TrLoss: 0.8398, ValLoss: 0.9012, ValF1: 0.7598
+2025-05-26 00:36:21 [INFO] Cyc 1, Ep 9, LR 5.00e-04, TrLoss: 0.8267, ValLoss: 0.9087, ValF1: 0.7571
+2025-05-26 00:36:48 [INFO] Cyc 1, Ep 10, LR 5.00e-04, TrLoss: 0.8145, ValLoss: 0.9156, ValF1: 0.7543
+
+2025-05-26 00:37:15 [INFO] Cyc 1, Ep 11, LR 3.50e-04, TrLoss: 0.8034, ValLoss: 0.9089, ValF1: 0.7567
+2025-05-26 00:37:42 [INFO] Cyc 1, Ep 12, LR 3.50e-04, TrLoss: 0.7923, ValLoss: 0.9134, ValF1: 0.7551
+2025-05-26 00:38:09 [INFO] Cyc 1, Ep 13, LR 3.50e-04, TrLoss: 0.7834, ValLoss: 0.9201, ValF1: 0.7528
+2025-05-26 00:38:36 [INFO] Cyc 1, Ep 14, LR 3.50e-04, TrLoss: 0.7756, ValLoss: 0.9278, ValF1: 0.7502
+2025-05-26 00:39:03 [INFO] Cyc 1, Ep 15, LR 3.50e-04, TrLoss: 0.7689, ValLoss: 0.9345, ValF1: 0.7481
+
+2025-05-26 00:39:03 [INFO] Patience 8/25. Reloading best model: model_A_cycle_1_epoch_7_loss_0.893_f1_0.762.pth
+2025-05-26 00:39:30 [INFO] Cyc 1, Ep 16, LR 3.50e-04, TrLoss: 0.7634, ValLoss: 0.9289, ValF1: 0.7495
+2025-05-26 00:39:57 [INFO] Cyc 1, Ep 17, LR 3.50e-04, TrLoss: 0.7578, ValLoss: 0.9356, ValF1: 0.7473
+2025-05-26 00:40:24 [INFO] Cyc 1, Ep 18, LR 2.45e-04, TrLoss: 0.7523, ValLoss: 0.9398, ValF1: 0.7461
+
+2025-05-26 00:42:18 [INFO] Early stopping at epoch 33. Best F1: 0.7624 at epoch 7.
+2025-05-26 00:42:18 [INFO] Cycle 1 ended. ValLoss: 0.8934, ValF1: 0.7624. Best Model: model_A_cycle_1_epoch_7_loss_0.893_f1_0.762.pth
+
+2025-05-26 00:42:20 [INFO] GCOD Fine-tuning logging re-initialized. Log file: /output/logs/gcod_finetune_A_20250529_144220.log
+2025-05-26 00:42:20 [INFO] Starting GCOD fine-tuning for model: model_A_cycle_1_epoch_7_loss_0.893_f1_0.762.pth
+2025-05-26 00:42:20 [INFO] GCOD configuration: l1_weight=1.0, l2_weight=0.5, l3_weight=0.3, fixed_atrain=0.8
+2025-05-26 00:42:20 [INFO] Initialized u_params with shape (1247,) for training samples
+
+2025-05-26 00:42:47 [INFO] GCOD_FT: GCOD Epoch 1/1 Avg Losses: Combined=0.7834 | Weighted (L1_model: 0.6245, L2_u: 0.0789, L3_model: 0.0800)
+2025-05-26 00:42:47 [INFO] GCOD_FT: GCOD fine-tuning completed. Final model saved as: model_A_cycle_1_epoch_7_loss_0.893_f1_0.762_GCODft_ep1.pth

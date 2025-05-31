@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+torch_geometric
+pandas
+numpy
+scikit-learn
