@@ -8,7 +8,7 @@ Clelia Bernardo 2001903
 ## Model Architecture
 
 The core model used throughout is `EdgeVGAE`, a Variational Graph Autoencoder adapted for edge features and graph classification. 
-This approach was inspired by this [method](https://github.com/cminuttim/Learning-with-Noisy-Graph-Labels-Competition-IJCNN_2025). The model has not been modified while the training process and losses used were drastically changed.
+This approach was inspired by this [method](https://github.com/cminuttim/Learning-with-Noisy-Graph-Labels-Competition-IJCNN_2025). The model has not been modified while the training process and losses used were drastically changed, including denoise loss and GCOD loss from this [paper](https://arxiv.org/abs/2412.08419).
 It consists of:
 *   `EdgeVGAEEncoder`: Uses custom GNN layers to produce node embeddings.
 *   A reparameterization step to sample latent node features `z`.
